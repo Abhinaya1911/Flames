@@ -1,0 +1,37 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flames</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="flexCenter">
+  <div class="card flexCenter flexColumn">
+    <img src="pic/splash1.png" class="logo" alt="Abhinaya's flames"/>
+
+    <div id="mainInterface" class="flexCenter flexColumn">
+      <h3>IlThakaSaiya</h3>
+      <div class="flexCenter flexColumn">
+        <img src="pic/king.png" class="crownImage" alt="King Pic"/>
+        <input id="kingName" class="inputText" type="text" placeholder="Your name"/>
+        <img src="pic/kingM.png" class="crownImage"/>
+      </div>
+
+      <div class="flexCenter flexColumn">
+        <img src="pic/queen.png" class="crownImage" alt="Queen Pic"/>
+        <input id="queenName" class="inputText" type="text" placeholder="Your Crush name"/>
+        <img src="pic/necklase.png" class="crownImage"/>
+      </div>
+
+      <button class="primaryBtn" onclick="predict()"> Predict </button>
+    </div>
+
+    <p id="result" class="result">
+    </p>
+    <img class="resultImage" id="resultImage"/>
+
+  </div>
+</body>
+<script src="index.js"></script>
+</html>
