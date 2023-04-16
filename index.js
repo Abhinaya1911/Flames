@@ -1,7 +1,7 @@
 let king = ""
 let queen = ""
 let resultImage = ["pic/friends.png", "pic/lovers.png", "pic/affectionative.png",
-  "pic/kalyanam.png", "pic/enemies.png", "pic/Sisterr.png"
+  "pic/Kalyanam.png", "pic/enemies.png", "pic/Sisterr.png"
 ];
 console.log(resultImage);
 
